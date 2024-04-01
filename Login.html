@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="icon" href="../GameClubIcones/fstgaming.png">
+    <link rel="icon" href="../GameClubIcones/fstgaming.png">
+    <link rel="stylesheet" href="../bootStrap/bootstrap-5.3.3-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="styleLogin.css">
+</head>
+
+<body>
+     <!--***************************************************NAVBAR****************************************************-->
+
+    <!--***************************************************login***************************************************-->
+    <div class="container w-50 " style="margin-bottom:100px;" >
+        <div style="border-radius :40px; padding: 30px 40px;border:3px solid black;" class="barage">
+        <form action="login.php" method="post" class="form-group" style="text-align: center;">
+            <h1 style=" text-align: centre; color: black" > 
+                <img class="logo" src="../GameClubIcones/fstgaming.png" alt="fstgaming" style="width: 70px; height: auto;">Login</h1>
+                <div class="form-group">
+                        <input type="email"  placeholder="your email" id="email" name="email" class="form-control" style="width: 65%; border :2px solid rgba(255,255,255,2); border-radius: 40px; margin: 30px 0 30px 110px;" >
+                </div>
+                <div class="form-gorup">
+                <input type="password"   placeholder="*********" name="password" id="pass" class="form-control" style="width: 65%; border :2px solid rgba(255,255,255,2); border-radius: 40px; margin: 30px 0 30px 110px;">
+                </div>
+                <div class="form-gorup" id="check">
+               <label style="color: black;">
+                 remembre me
+               </label> <input type="checkbox" name="checkbox" id="">
+                </div>
+                <div class="row">
+                    <h6 > 
+                        <a href="../signup/SIGN UP.html" style="color: rgb(247, 247, 247);">I do not have an account</a></h6>
+                </div>
+                <div class="row" id="seft">
+                    <div class="col-8 m-1">
+                       <input type="submit" value="submit" class="btn btn-outline-warning" style=" margin-right: 60px;" name="login">
+                    </div>
+                    <div class="col-2 m-1">
+                    <input type="reset" value="reset" class="btn btn-outline-warning" style="height: 38px;  width: 74.33px;" id="reset">
+                    </div>
+                </div>
+    </form>
+    </div>
+    </div>
+  
+     <!--***************************************************FOOTER****************************************************-->
+    
+    <script src="../bootStrap/bootstrap-5.3.3-dist/js/popper.min.js"></script>
+    <script src="../bootStrap/bootstrap-5.3.3-dist/js/jquery-3.7.1.min.js"></script>
+    <script src="../bootStrap/bootstrap-5.3.3-dist/js/bootstrap.js"></script>
+</body>
+</html>
