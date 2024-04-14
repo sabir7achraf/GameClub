@@ -1,0 +1,62 @@
+body{
+    background-color:#343a40;
+}
+#tournoi{
+
+    width: 100%;
+   
+    position: relative;
+   top: 50px;
+}
+
+#btntournoi {
+    /* Vos styles ici */
+    text-decoration: none ;
+    color:black;
+    position: relative;
+    left:440px;
+}
+#btnmember {
+    /* Vos styles ici */
+    text-decoration: none ;
+    color :black;
+    position: relative;
+    left:440px;
+}
+#headingTwo{
+    background-color:#9dbcdb;
+}
+#headingOne{
+    background-color:#9dbcdb;
+}
+#headingThree{
+    background-color:#9dbcdb;
+}
+.icons{
+    width:30px; 
+    height:30px; 
+}
+.leshead{
+    position: relative;
+    top :7px;
+}
+th, td {
+    border: 1px solid #000000;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+.chekboxx{
+position:relative;
+left :20px;
+}
+#ch{
+    position:relative;
+    left :1150px; 
+    bottom: 20px;
+    width:  100px;
+}
+
