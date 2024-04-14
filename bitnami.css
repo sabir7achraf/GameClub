@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,600&display=swap");
+
+*{
+    margin:0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+}
+.sidebar{
+    position:sticky;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 100vh;
+    width: 220px;
+    padding: 0 1.7rem;
+    color: #fff;
+    overflow: hidden;
+    transition: all 0.5s linear;
+    background: rgba(113, 99, 186, 255);
+}
+
+.logo{
+    height: 90px;
+    width: 90px;
+    display: flex;
+    position: relative;
+    top: 1rem;
+    padding: 16px;
+}
+.menu{
+    height: 88%;
+    position: relative;
+    list-style: none;
+    padding: 0;
+}
+.menu li{
+    margin: 8px 0;
+    padding: 1rem;
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;
+}
+.menu li:hover, .active{
+    background: #e0e0e050;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    grap: 1.5rem;
+}
+.menu a span{
+    overflow: hidden;
+}
+.menu a svg{
+    font-size: 1rem;
+    margin-right: 5px;
+}
+svg{
+    color: #fff;
+    width: 24px;
+}
+.logout{
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+    width: 100%;
+}
+************/
+ .section {
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+    width: 100% !important;
+  }
+
+.section.hidden {
+    opacity: 0;
+  }
+
+
+  body {
+    background: rgb(99, 39, 120)
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #BA68C8
+}
+
+.profile-button {
+    background: rgb(99, 39, 120);
+    box-shadow: none;
+    border: none
+}
+
+.profile-button:hover {
+    background: #682773
+}
+
+.profile-button:focus {
+    background: #682773;
+    box-shadow: none
+}
+
+.profile-button:active {
+    background: #682773;
+    box-shadow: none
+}
+
+.back:hover {
+    color: #682773;
+    cursor: pointer
+}
+
+.labels {
+    font-size: 11px
+}
+
+.add-experience:hover {
+    background: #BA68C8;
+    color: #fff;
+    cursor: pointer;
+    border: solid 1px #BA68C8
+}
